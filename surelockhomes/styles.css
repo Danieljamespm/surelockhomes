@@ -30,6 +30,11 @@ html, body, .container, .content{
     color: white;
 }
 
+#main-container{
+    height: inherit;
+    
+}
+
 body{
     background-color: var(--cream);
     max-width:1200px;
