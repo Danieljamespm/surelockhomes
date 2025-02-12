@@ -14,7 +14,7 @@
 
 html{
     scroll-behavior: smooth;
-    background-color: var(--black);
+    background-color: var(--cream);
 }
 
 html, body, .container, .content{
@@ -32,7 +32,7 @@ html, body, .container, .content{
 
 #main-container{
     height: inherit;
-    
+
 }
 
 body{
