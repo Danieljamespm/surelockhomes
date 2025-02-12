@@ -1,0 +1,36 @@
+:root{
+--black: #000000;
+--red: #c42021;
+--gray: #909590;
+-cream: #f3ffb9;
+-blue: #0a369d;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+    background-color: var(--black);
+}
+
+html, body, .container, .content{
+    position:relative;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.0rem;
+    font-weight: 400;
+    color: white;
+}
+
+body{
+    background-color: var(--cream);
+    max-width:1200px;
+}
