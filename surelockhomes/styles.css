@@ -4,8 +4,8 @@
 --black: #000000;
 --red: #c42021;
 --gray: rgb(144, 149, 144);
--cream: #f3ffb9;
--blue: #0a369d;
+--cream: #f3ffb9;
+--blue: #0a369d;
 }
 
 *{
@@ -16,7 +16,7 @@
 
 html{
     scroll-behavior: smooth;
-    background-color: var(--cream);
+    background-color: white;
 }
 
 html, body, .container, .content{
@@ -39,7 +39,7 @@ html, body, .container, .content{
 
 body{
     background-color: var(--cream);
-    max-width:2400px;
+    max-width:2560px;
 }
 
 main, section, article {
