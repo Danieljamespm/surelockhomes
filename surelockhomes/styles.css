@@ -6,6 +6,7 @@
 --gray: rgb(144, 149, 144);
 --cream: #f3ffb9;
 --blue: #0a369d;
+--darkred: rgb(226, 59, 59);
 }
 
 *{
@@ -206,6 +207,63 @@ nav .button:hover{
     filter: brightness(50%);
     
 }
+
+#hero-section .container.overlay{
+    position: absolute;
+    top: 150px;
+    left: auto;
+    width: 600px;
+    height: 100%;
+    justify-content: flex-start;
+    align-items: flex-start;
+    z-index: 2;
+}
+
+#hero-section .content.overlay{
+    position: relative;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+#hero-section .content.overlay h1{
+    font-size: 3.5rem;
+    color:white;
+    padding-bottom: 20px;
+    
+   
+    
+}
+#hero-section .content.overlay p{
+    font-size: 1.5rem;
+    color:white;
+   
+    
+}
+
+.buzzwords{
+    color: var(--darkred);
+}
+
+.schedule-button{
+    background-color: var(--red);
+    margin-top: 30px;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    font-size: 1.5rem;
+    border: none;
+    
+}
+
+
+.schedule-button:hover{
+    background-color: black;
+    color: var(--red);
+    border: 2px solid var(--red)
+    
+}
+
 
 @media (max-width: 768px){
     #hero-section .container.image{
