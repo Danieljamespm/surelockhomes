@@ -287,9 +287,18 @@ nav .button:hover{
 #about-section .container.about{
     height: 900px;
     width:100%;
+    display: flex;
+}
+#about-section .container.image.about{
+    width: 100%;
+}
+
+#about-section .content.image.about{
+    width: 50%;
 }
 #about-section .content.about{
     height:100%;
+    width: 50%;
     background-color: black;
     color: white;
     position: relative;
