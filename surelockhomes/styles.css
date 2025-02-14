@@ -4,7 +4,7 @@
 --black: #000000;
 --red: #c42021;
 --gray: rgb(144, 149, 144);
---cream: #f3ffb9;
+--bone: #F9F6EE;
 --blue: #0a369d;
 --darkred: rgb(226, 59, 59);
 }
@@ -30,7 +30,7 @@ html, body, .container, .content{
     font-family: 'Roboto', sans-serif;
     font-size: 1.0rem;
     font-weight: 400;
-    color: white;
+    color: black;
 }
 
 #main-container{
@@ -39,7 +39,7 @@ html, body, .container, .content{
 }
 
 body{
-    background-color: var(--cream);
+    background-color: var(--bone);
     max-width:2560px;
 }
 
@@ -217,6 +217,7 @@ nav .button:hover{
     justify-content: flex-start;
     align-items: flex-start;
     z-index: 2;
+    
 }
 
 #hero-section .content.overlay{
@@ -279,3 +280,44 @@ nav .button:hover{
         overflow: hidden;
     }
 }
+
+/* ABOUT SECTION */
+
+
+#about-section .container.about{
+    height: 900px;
+    width:100%;
+}
+#about-section .content.about{
+    height:100%;
+    background-color: black;
+    color: white;
+    position: relative;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 1.5rem;
+}
+.content.about h3{
+    font-size: 3.0rem;
+    padding-top: 10px;
+}
+ .art-about p{
+    padding: 20px;
+ }
+
+ .about-button{
+    width:100%;
+    padding: 20px;
+ }
+ .about-btn{
+    padding:10px;
+    border-radius: 10px;
+    border:none;
+    cursor: pointer;
+    font-size: 1.0rem;
+ }
+ .about-btn:hover{
+    background-color: black;
+    color: white;
+    border:1px solid white
+ }
