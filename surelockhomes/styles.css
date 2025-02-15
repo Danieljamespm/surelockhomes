@@ -279,6 +279,9 @@ nav .button:hover{
         font-size: 2.5rem;
         padding-bottom: 10px;
     }
+    #hero-section .container.overlay{
+       top: 90px;
+    }
     #hero-section .content.overlay p{
         font-size: 1.2rem;
     }
@@ -289,23 +292,25 @@ nav .button:hover{
 }
 @media (max-width: 430px){
     #hero-section .container.image{
-        height: 300px;
+        height: 450px;
         box-sizing: border-box;
         overflow: hidden;
     }
     #hero-section .container.overlay{
-        width: 300px;
+        width: 400px;
         top: 20px;
     }
     #hero-section .content.overlay h1{
-        font-size: 1.5rem;
+        font-size: 2.1rem;
     }
     #hero-section .content.overlay p{
-        font-size: .8rem;
+        font-size: 1.3rem;
     }
     .schedule-button{
-        font-size: .7rem;
+        font-size: .8rem;
         margin-top: 10px;
+        margin-left: 0;
+        
     }
 }
 
@@ -367,4 +372,78 @@ nav .button:hover{
     border: 1px solid black;
     color: black;
     cursor: pointer;
+}
+
+@media (max-width: 768px){
+    #about-section{
+        height: 1000px;
+        
+        
+    }
+    .about-container{
+        width: 700px;
+        height: 900px;
+        flex-direction: column;
+        
+    }
+    .about-text{
+        height: 500px;
+        width: 550px;
+    }
+    .about-text h3{
+        font-size: 2.5rem;
+    }
+    .about-text p{
+        font-size: 1.3rem;
+    }
+    .about-img{
+        width: 700px;
+        display: flex;
+        justify-content: center;
+    }
+    .about-img img{
+        width: 500px;
+    }
+    .about-btn{
+        font-size: 1.0rem;
+        margin: 0 0 0 20px;
+    }
+}
+@media (max-width: 430px){
+    #about-section{
+        height: 1000px;
+        
+        
+    }
+    .about-container{
+        width: 400px;
+        height: 950px;
+        flex-direction: column;
+        background-color: blue;
+        justify-content: space-between;
+        
+    }
+    .about-text{
+        height: 700px;
+        width: 440px;
+        background-color: white;
+    }
+    .about-text h3{
+        font-size: 2.5rem;
+    }
+    .about-text p{
+        font-size: 1.3rem;
+    }
+    .about-img{
+        width: 400px;
+        display: flex;
+        justify-content: center;
+    }
+    .about-img img{
+        width: 400px;
+    }
+    .about-btn{
+        font-size: 1.0rem;
+        margin: 0 0 0 20px;
+    }
 }
