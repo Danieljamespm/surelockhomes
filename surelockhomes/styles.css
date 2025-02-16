@@ -43,6 +43,11 @@ body{
     background-color: var(--bone);
     max-width:2560px;
     
+    
+    
+}
+button{
+    font-family: 'Roboto';
 }
 
 /* main, section, article {
@@ -345,6 +350,7 @@ nav .button:hover{
 .about-text h3{
     font-size: 3.0rem;
     padding-left: 20px;
+    text-transform: uppercase;
 }
 .about-text p{
     font-size: 1.6rem;
@@ -453,7 +459,7 @@ nav .button:hover{
 
 #about-section-2{
     max-width:2560px;
-    height:800px;
+    height:900px;
     background-color: black;
     display: flex;
     justify-content: center;
@@ -479,6 +485,7 @@ nav .button:hover{
 .about-text-2 h3{
     font-size: 3.0rem;
     padding-left: 20px;
+    text-transform: uppercase;
 }
 .about-text-2 p{
     font-size: 1.6rem;
@@ -508,6 +515,7 @@ nav .button:hover{
     border: 1px solid var(--red);
     color: var(--red);
     cursor: pointer;
+    /* transition-duration: 300ms; */
 }
 
 @media (max-width: 768px){
@@ -588,5 +596,119 @@ nav .button:hover{
         font-size: 1.0rem;
         margin: 0 0 0 20px;
     }
+}
+
+/* SERVICES */
+
+#services{
+    height: 800px;
+    max-width: 2560px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    align-items: center;
+    
+    }
+
+#services h3{
+    text-align: center;
+    font-size: 3.0rem;
+    padding-top: 40px;
+}
+
+.content-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+.card-container{
+    
+    height: 500px;
+    width: 1800px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    
+}
+
+.card{
+    height: 400px;
+    width: 400px;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 
+     0px 0px 20px 1px var(--gray)
+    
+    ;
+}
+
+.card img{
+    height: 100px;
+    width: 100px;
+}
+
+.card h4{
+    font-size: 2.0rem;
+}
+.card p{
+    font-size: 1.3rem;
+    text-align: center;
+    padding: 0 20px;
+}
+.card:hover{
+    background-color: black;
+    color: white;
+    transition-duration: 500ms;
+}
+.card:hover img{
+    transition-duration: 500ms;
+    -webkit-filter: brightness(0) invert(1);
+    filter: brightness(0) invert(1);
+    
+}
+
+.service-btn{
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    
+}
+
+.card:hover .service-btn{
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+}
+
+.card:hover .service-btn:hover{
+    background-color: white;
+    
+    color: black;
+    cursor: pointer;
+}
+.services-more-btn{
+    padding: 15px 30px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 1.2rem;
+    font-family: "roboto";
+}
+.services-more-btn:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    cursor: pointer;
 }
 
