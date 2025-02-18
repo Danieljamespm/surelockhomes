@@ -41,7 +41,7 @@ html{
 
 body{
     background-color: var(--bone);
-    max-width:2560px;
+    max-width:1920px;
     
     
     
@@ -323,7 +323,7 @@ nav .button:hover{
 
 
 #about-section{
-    max-width:2560px;
+    max-width:1920px;
     height:800px;
     background-color: white;
     display: flex;
@@ -458,7 +458,7 @@ nav .button:hover{
 /* ABOUT SECTION 2 */
 
 #about-section-2{
-    max-width:2560px;
+    max-width:1920px;
     height:900px;
     background-color: black;
     display: flex;
@@ -603,12 +603,11 @@ nav .button:hover{
 
 #services{
     height: 800px;
-    max-width: 2560px;
+    max-width: 1920px;
     display: flex;
     flex-direction: column;
     background-color: white;
     align-items: center;
-    
     }
 
 #services h3{
@@ -622,6 +621,7 @@ nav .button:hover{
     justify-content: center;
     align-items: center;
     height: 500px;
+    max-width: 1400px;
 }
 
 .card-container{
@@ -631,8 +631,6 @@ nav .button:hover{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    
-    
 }
 
 .card{
@@ -644,9 +642,7 @@ nav .button:hover{
     flex-direction: column;
     align-items: center;
     box-shadow: 
-     0px 0px 20px 1px var(--gray)
-    
-    ;
+     0px 0px 20px 1px var(--gray);
 }
 
 .card img{
@@ -735,6 +731,7 @@ nav .button:hover{
 
 #contact-form{
     height: 700px;
+    background-color: white;
 }
 #contact-form h3{
     text-align: center;
