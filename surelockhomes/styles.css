@@ -779,3 +779,16 @@ nav .button:hover{
     color: var(--red);
     cursor: pointer;
 }
+
+/* FOOTER */
+
+footer{
+    height: 500px;
+    background-color: black;
+}
+.footer-content{
+    
+}
+.footer-content h3{
+    color: white;
+}
