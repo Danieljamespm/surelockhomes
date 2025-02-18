@@ -774,7 +774,7 @@ nav .button:hover{
 }
 .form-container{
     height: 600px;
-    width: 400px;
+    width: 600px;
 }
 .form-container input{
     width: 100%;
@@ -786,6 +786,7 @@ nav .button:hover{
 
 .form-container .message-box{
     height: 150px;
+   padding-bottom: 120px;
 }
 
 .d-flex{
@@ -805,6 +806,16 @@ nav .button:hover{
     color: var(--red);
     cursor: pointer;
 }
+
+input, select{
+    color: white;
+}
+
+input:focus{
+    color: white;
+}
+
+
 
 @media (min-width:375px) and (max-width:430px){
     .form-container{
