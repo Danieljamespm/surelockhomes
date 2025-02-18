@@ -298,25 +298,25 @@ nav .button:hover{
         margin-top: 10px;
     }
 }
-@media (max-width: 430px){
+@media (min-width: 375px) and (max-width: 430px){
     #hero-section .container.image{
         height: 450px;
         box-sizing: border-box;
         overflow: hidden;
     }
     #hero-section .container.overlay{
-        width: 400px;
+        width: 90%;
         top: 20px;
     }
     #hero-section .content.overlay h1{
-        font-size: 2.1rem;
+        font-size: 1.6rem;
     }
     #hero-section .content.overlay p{
-        font-size: 1.3rem;
+        font-size: 1.35rem;
     }
     .schedule-button{
         font-size: .8rem;
-        margin-top: 10px;
+        margin-top: 20px;
         margin-left: 0;
         
     }
@@ -419,15 +419,15 @@ nav .button:hover{
         margin: 0 0 0 20px;
     }
 }
-@media (max-width: 430px){
+@media (min-width: 375px) and (max-width: 430px){
     #about-section{
         height: 1000px;
         
         
     }
     .about-container{
-        width: 400px;
-        height: 950px;
+        width: 100%;
+        height: 900px;
         flex-direction: column;
         
         justify-content: space-between;
@@ -435,11 +435,11 @@ nav .button:hover{
     }
     .about-text{
         height: 700px;
-        width: 440px;
+        width: 100%;
         background-color: white;
     }
     .about-text h3{
-        font-size: 2.5rem;
+        font-size: 2.3rem;
     }
     .about-text p{
         font-size: 1.3rem;
@@ -450,7 +450,8 @@ nav .button:hover{
         justify-content: center;
     }
     .about-img img{
-        width: 400px;
+        width: 90%;
+        margin: 0 auto;
     }
     .about-btn{
         font-size: 1.0rem;
@@ -561,14 +562,14 @@ nav .button:hover{
         margin: 0 0 0 20px;
     }
 }
-@media (max-width: 430px){
+@media (min-width:375px) and (max-width: 430px){
     #about-section-2{
         height: 1100px;
         
         
     }
     .about-container-2{
-        width: 400px;
+        width: 100vw;
         height: 1000px;
         flex-direction: column;
         justify-content: space-between;
@@ -576,24 +577,24 @@ nav .button:hover{
     }
     .about-text-2{
         height: 700px;
-        width: 440px;
+        width: 100%;
         order: 1;
     }
     .about-text-2 h3{
-        font-size: 2.5rem;
+        font-size: 2.2rem;
     }
     .about-text-2 p{
         font-size: 1.3rem;
     }
     .about-img-2{
-        width: 400px;
+        width: 100%;
         display: flex;
         justify-content: center;
         order: 2;
         padding-top: 20px;
     }
     .about-img-2 img{
-        width: 400px;
+        width: 90%;
         height: 300px;
     }
     .about-btn-2{
@@ -729,6 +730,27 @@ nav .button:hover{
     }
 }
 
+@media (min-width:375px) and (max-width:430px){
+   
+    #services h3{
+        font-size: 2.5rem;
+    }
+    .content-container{
+        width:90%;
+        margin: 0 auto;
+    }
+    .card-container{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .card{
+        width: 100%;
+    }
+    .services-more-btn{
+        font-size: 1.0rem;
+    }
+}
+
 /* CONTACT FORM */
 
 
@@ -782,6 +804,15 @@ nav .button:hover{
     background-color: black;
     color: var(--red);
     cursor: pointer;
+}
+
+@media (min-width:375px) and (max-width:430px){
+    .form-container{
+        width: 90%;
+    }
+    #contact-form h3{
+        font-size: 2.5rem;
+    }
 }
 
 /* FOOTER */
