@@ -807,12 +807,19 @@ nav .button:hover{
     cursor: pointer;
 }
 
+input{
+    border: none;
+    border-radius: 10px;
+}
+
 input, select{
     color: white;
 }
 
 input:focus{
     color: white;
+    border: 3px solid red;
+    
 }
 
 
