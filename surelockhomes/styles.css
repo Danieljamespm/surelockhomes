@@ -41,16 +41,26 @@ html{
 
 body{
     background-color: var(--bone);
-    max-width:100vw;
+    max-width: 1920px;
     overflow-x: hidden;
-    
-    
-    
-    
-    
+    margin: 0 auto;
 }
-button{
-    font-family: 'Roboto';
+
+@media (min-width: 1920px){
+    body{
+        max-width: 100vw;
+        margin: none;
+    }
+}
+
+.button{
+   display: inline-block;
+   padding: 12px 24px;
+   background-color: var(--red);
+   color: white;
+   text-decoration: none;
+   border-radius: 8px;
+   text-align: center;
 }
 
 /* main, section, article {
@@ -107,7 +117,7 @@ a{
     font-weight: 500;
 }
 
-nav .button{
+.nav-button{
     margin: 0 10px;
     padding: 10px 20px;
     font-size: 0.9rem;
@@ -118,10 +128,10 @@ nav .button{
     
 }
 
-nav .button:active{
+.nav-button:active{
     color: var(--red);
 }
-nav .button:hover{
+.nav-button:hover{
     color: var(--red);
     transition-duration: 500ms;
 }
@@ -196,7 +206,7 @@ nav .button:hover{
 /* HERO SECTION */
 
 #hero-section .container.image{
-    height: 900px;
+    height: 1200px;
     box-sizing: border-box;
     overflow: hidden;
 }
@@ -256,8 +266,8 @@ nav .button:hover{
     color: var(--darkred);
 }
 
-.schedule-button{
-    background-color: var(--red);
+.content.overlay > a{
+    
     margin-top: 30px;
     padding: 15px;
     border-radius: 10px;
@@ -269,7 +279,7 @@ nav .button:hover{
 }
 
 
-.schedule-button:hover{
+.content.overlay > a:hover{
     background-color: black;
     color: var(--red);
     border: 2px solid var(--red)
@@ -366,7 +376,7 @@ nav .button:hover{
 .about-img img{
     width: 700px;
 }
-.about-btn{
+.about-text > a{
     padding: 15px 30px;
     margin: 10px 0 0 20px;
     font-size: 1.2rem;
@@ -377,7 +387,7 @@ nav .button:hover{
     border-radius: 10px;
     text-transform: uppercase;
 }
-.about-btn:hover{
+.about-text > a:hover{
     background-color: white;
     border: 1px solid black;
     color: black;
@@ -503,7 +513,7 @@ nav .button:hover{
     width: 700px;
     height: 600px;
 }
-.about-btn-2{
+.about-text-2 > a{
     padding: 15px 30px;
     margin: 10px 0 0 20px;
     font-size: 1.2rem;
@@ -514,7 +524,7 @@ nav .button:hover{
     border-radius: 10px;
     text-transform: uppercase;
 }
-.about-btn-2:hover{
+.about-text-2 > a:hover{
     background-color: black;
     border: 1px solid var(--red);
     color: var(--red);
@@ -674,7 +684,7 @@ nav .button:hover{
     
 }
 
-.service-btn{
+.card > a{
     padding: 10px;
     background-color: black;
     color: white;
@@ -685,13 +695,13 @@ nav .button:hover{
     
 }
 
-.card:hover .service-btn{
+.card:hover, .card > a{
     background-color: black;
     color: white;
     border: 1px solid white;
 }
 
-.card:hover .service-btn:hover{
+.card > a:hover{
     background-color: white;
     
     color: black;
