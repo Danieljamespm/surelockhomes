@@ -36,6 +36,7 @@ html{
 
 #main-container{
     height: inherit;
+   
 
 }
 
@@ -46,12 +47,12 @@ body{
     margin: 0 auto;
 }
 
-@media (min-width: 1920px){
+/* @media (min-width: 1920px){
     body{
         max-width: 100vw;
         margin: none;
     }
-}
+} */
 
 .button{
    display: inline-block;
@@ -231,7 +232,7 @@ a{
 
 #hero-section .container.overlay{
     position: absolute;
-    top: 150px;
+    top: 250px;
     left: auto;
     width: 600px;
     height: 100%;
@@ -268,7 +269,7 @@ a{
 
 .content.overlay > a{
     
-    margin-top: 30px;
+    margin-top: 50px;
     padding: 15px;
     border-radius: 10px;
     color: white;
@@ -848,11 +849,36 @@ input:focus{
 footer{
     max-width: 100%;
     height: 500px;
-    background-color: black;
+    background-color: white;
+    display: flex;
+    justify-content: center;
 }
 .footer-content{
-    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: blue;
+    width: 1000px;
+    height: 300px;
 }
 .footer-content h3{
-    color: white;
+    color: black;
+    font-size: 3.0rem;
+}
+.footer-links{
+    display: flex;
+    justify-content: space-around;
+    color: black;
+    width: 100%;
+   
+}
+.link-bg{
+    background-color: var(--red);
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
 }
