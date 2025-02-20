@@ -325,13 +325,15 @@ a{
 }
 @media (min-width: 375px) and (max-width: 430px){
     #hero-section .container.image{
-        height: 500px;
+        height: 900px;
         box-sizing: border-box;
         overflow: hidden;
     }
     #hero-section .container.overlay{
         width: 90%;
-        top: 40px;
+        top: 245px;
+        left: 30px;
+        
     }
     #hero-section .content.overlay h1{
         font-size: 1.6rem;
@@ -344,6 +346,10 @@ a{
         margin-top: 30px;
         margin-left: 0;
         
+    }
+    #hero-section img{
+        object-fit: cover;
+        object-position: -800px;
     }
 }
 
