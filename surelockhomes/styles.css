@@ -1021,3 +1021,16 @@ footer h5{
 
 
 
+@media (min-width: 375px) and ( max-width: 430px){
+    .footer-content{
+        height: auto;
+    }
+    .footer-links{
+        flex-direction: column;
+        
+    }
+    .link-bg p{
+        padding-top: 0;
+        padding-bottom: 30px;
+    }
+}
