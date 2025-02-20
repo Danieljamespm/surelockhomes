@@ -21,6 +21,13 @@ html{
     font-family: "Roboto";
 }
 
+h3{
+    font-size: 2.5rem;
+}
+p{
+    font-size: 1.4rem;
+}
+
  main .container, .content{
     position:relative;
     display:flex;
@@ -42,9 +49,10 @@ html{
 
 body{
     background-color: var(--bone);
-    max-width: 1920px;
+    max-width: 100vw;
     overflow-x: hidden;
     margin: 0 auto;
+    
 }
 
 /* @media (min-width: 1920px){
@@ -337,45 +345,49 @@ a{
 
 
 #about-section{
-    max-width:100%;
+    
+    max-width:100vw;
     height:800px;
-    background-color: white;
+    
     display: flex;
     justify-content: center;
     align-items: center;
     
+    
 }
 
 .about-container{
-    background-color: white;
-    width: 2000px;
+    
+    width: 100%;
+    max-width: 1240px;
     height: 700px;
     display: flex;
     justify-content: space-around;
+    
     
     align-items: center;
     
     
 }
 .about-text{
-    width: 600px;
+    width: 500px;
+    
     
 }
 .about-text h3{
-    font-size: 3.0rem;
     padding-left: 20px;
     text-transform: uppercase;
 }
 .about-text p{
-    font-size: 1.6rem;
     padding: 20px;
 }
 .about-img{
-    width: 700px;
+    width: 600px;
+    
     
 }
 .about-img img{
-    width: 700px;
+    width: 600px;
 }
 .about-text > a{
     padding: 15px 30px;
@@ -450,10 +462,10 @@ a{
         background-color: white;
     }
     .about-text h3{
-        font-size: 2.3rem;
+        font-size: 2.5rem;
     }
     .about-text p{
-        font-size: 1.3rem;
+        font-size: 1.4rem;
     }
     .about-img{
         width: 400px;
@@ -473,7 +485,7 @@ a{
 /* ABOUT SECTION 2 */
 
 #about-section-2{
-    max-width:100%;
+    max-width:100vw;
     height:900px;
     background-color: black;
     display: flex;
@@ -484,7 +496,8 @@ a{
 
 .about-container-2{
     background-color: black;
-    width: 2000px;
+    width: 100%;
+    max-width:1240px;
     height: 700px;
     color: white;
     display: flex;
@@ -494,25 +507,23 @@ a{
     
 }
 .about-text-2{
-    width: 600px;
+    width: 500px;
     
 }
 .about-text-2 h3{
-    font-size: 3.0rem;
     padding-left: 20px;
     text-transform: uppercase;
 }
 .about-text-2 p{
-    font-size: 1.6rem;
     padding: 20px;
 }
 .about-img-2{
-    width: 700px;
+    width: 600px;
     
 }
 .about-img-2 img{
-    width: 700px;
-    height: 600px;
+    width: 600px;
+   
 }
 .about-text-2 > a{
     padding: 15px 30px;
@@ -617,8 +628,8 @@ a{
 /* SERVICES */
 
 #services{
-    height: 800px;
-    max-width: 100%;
+    height: 750px;
+    max-width: 100vw;
     display: flex;
     flex-direction: column;
     background-color: white;
@@ -627,7 +638,6 @@ a{
 
 #services h3{
     text-align: center;
-    font-size: 3.0rem;
     padding-top: 40px;
 }
 
@@ -636,21 +646,23 @@ a{
     justify-content: center;
     align-items: center;
     height: 500px;
-    max-width: 1400px;
+    width: 100%;
+    max-width: 1240px;
+    
 }
 
 .card-container{
-    
     height: 500px;
-    width: 1800px;
+    width: 100%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    
 }
 
 .card{
-    height: 400px;
-    width: 400px;
+    height: 350px;
+    width: 350px;
     background-color: white;
     display: flex;
     justify-content: space-evenly;
@@ -665,11 +677,16 @@ a{
     width: 100px;
 }
 
+.card .res{
+    height: 80px;
+    width: 80px;
+}
+
 .card h4{
     font-size: 2.0rem;
 }
 .card p{
-    font-size: 1.3rem;
+    font-size: 1.25rem;
     text-align: center;
     padding: 0 20px;
 }
@@ -772,7 +789,6 @@ a{
 }
 #contact-form h3{
     text-align: center;
-    font-size: 3.0rem;
 }
 
 .contact-container{
@@ -864,7 +880,7 @@ footer{
 }
 .footer-content h3{
     color: black;
-    font-size: 3.0rem;
+    
 }
 .footer-links{
     display: flex;
