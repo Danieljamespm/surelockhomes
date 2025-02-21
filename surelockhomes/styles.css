@@ -43,8 +43,6 @@ p{
 
 #main-container{
     height: inherit;
-   
-
 }
 
 body{
@@ -1042,3 +1040,57 @@ footer h5{
         padding-bottom: 30px;
     }
 }
+
+/* ABOUTUS.HTML */
+
+.bgimg-1, .bgimg-2, .bgimg-3{
+    position:relative;
+    opacity: 0.65;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+.bgimg-1{
+    background-image: url(images/car-key.jpg);
+    min-height: 600px;
+    width: 100%;
+}
+
+.bgimg-2{
+    background-image: url(images/skeleton-keys.jpg);
+    min-height: 600px;
+}
+.heading{
+    position: absolute;
+    left: 0;
+    top: 40%;
+    width: 100%;
+    text-align: center;
+    font-size: 5.0rem;
+    color: var(--grey);
+}
+.about-us-1{
+    background-color: white;
+    padding: 50px 80px; 
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    height: auto;
+}
+.about-logo{
+   height: 100px;
+    width: 300px;
+    
+}
+ .about-us-1 p{
+    line-height: 40px;
+    color:var(--gray);
+    text-align: justify;
+    font-size: 1.2rem;
+    padding-top: 20px;
+    
+ }
