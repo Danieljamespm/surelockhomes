@@ -704,9 +704,7 @@ a{
     justify-content: space-evenly;
     flex-direction: column;
     align-items: center;
-    box-shadow: 
-     0px 0px 20px 1px var(--gray);
-     perspective: 1000px;
+    perspective: 1000px;
      
 }
 
@@ -723,6 +721,8 @@ a{
 .card img{
     height: 100px;
     width: 100px;
+    -webkit-filter: brightness(0) invert(1);
+    filter: brightness(0) invert(1);
 }
 
 .card .res{
@@ -732,18 +732,20 @@ a{
 
 .card h4{
     font-size: 2.0rem;
+    color: white;
 }
 .card p{
     font-size: 1.25rem;
     text-align: center;
     padding: 0 20px;
+    color: white;
 }
-.card:hover{
+/* .card:hover{
     background-color: white;
     color: white;
     transition-duration: 500ms;
     
-}
+} */
 
 .card:hover .flip-card-inner{
     transform: rotateY(180deg);
@@ -760,6 +762,7 @@ a{
 }
 
 .flip-card-front, .flip-card-back{
+    background-color: black;
     position: absolute;
     height: 100%;
     -webkit-backface-visibility: hidden; /* Safari */
@@ -781,8 +784,7 @@ a{
 .card > a{
     padding: 10px;
     background-color: black;
-    color: white;
-    border: 1px solid black;
+    border: 1px solid white;
     border-radius: 10px;
     font-size: 1.2rem;
     text-transform: uppercase;
@@ -790,15 +792,14 @@ a{
 }
 
 .card:hover, .card > a{
-    background-color: transparent;
-    color: black;
+    color: white;
     
 }
 
 .card > a:hover{
-    background-color: black;
+    background-color: white;
     
-    color: white;
+    color: black;
     cursor: pointer;
 }
 .services-more-btn{
