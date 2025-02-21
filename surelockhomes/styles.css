@@ -17,7 +17,7 @@
 
 html{
     scroll-behavior: smooth;
-    background-color: white;
+    
     font-family: "Roboto";
 }
 
@@ -46,7 +46,7 @@ p{
 }
 
 body{
-    background-color: var(--bone);
+    
     max-width: 100vw;
     overflow-x: hidden;
     margin: 0 auto;
@@ -1073,13 +1073,13 @@ footer h5{
     color: var(--grey);
 }
 .about-us-1{
-    background-color: white;
+    
     padding: 50px 80px; 
     display: flex;
     flex-direction: column;
-    
     align-items: center;
     height: auto;
+    
 }
 .about-logo{
    height: 100px;
