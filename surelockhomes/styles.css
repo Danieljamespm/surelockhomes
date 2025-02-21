@@ -700,6 +700,7 @@ a{
     background-color: transparent;
     height: 350px;
     width: 350px;
+    border-radius: 20px;
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;
