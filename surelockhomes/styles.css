@@ -1043,7 +1043,7 @@ footer h5{
 
 /* ABOUTUS.HTML */
 
-.bgimg-1, .bgimg-2, .bgimg-3{
+.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4{
     position:relative;
     opacity: 0.65;
     background-position: center;
@@ -1055,14 +1055,34 @@ footer h5{
 
 .bgimg-1{
     background-image: url(images/car-key.jpg);
-    min-height: 600px;
+    min-height: 1250px;
     width: 100%;
 }
 
 .bgimg-2{
     background-image: url(images/skeleton-keys.jpg);
-    min-height: 600px;
+    min-height: 1000px;
+    width: 100%;
 }
+
+.bgimg-3{
+    background-image: url(images/house-keys.jpg);
+    min-height: 1000px;
+    width: 100%;
+
+}
+@media (min-width: 375px) and ( max-width: 430px){
+    .bgimg-3{
+        min-height: 800px;
+    }
+}
+
+.bgimg-4{
+    background-image: url(images/lockpicks.webp);
+    width: 100%;
+    min-height: 500px;
+}
+
 .heading{
     position: absolute;
     left: 0;
@@ -1072,8 +1092,14 @@ footer h5{
     font-size: 5.0rem;
     color: var(--grey);
 }
+
+@media (min-width: 375px) and ( max-width: 430px){
+    .heading{
+        font-size: 3.0rem;
+    }
+}
+
 .about-us-1{
-    
     padding: 50px 80px; 
     display: flex;
     flex-direction: column;
@@ -1087,6 +1113,7 @@ footer h5{
     
 }
  .about-us-1 p{
+    
     line-height: 40px;
     color:var(--gray);
     text-align: justify;
@@ -1094,3 +1121,99 @@ footer h5{
     padding-top: 20px;
     
  }
+
+ @media (min-width: 375px) and ( max-width: 430px){
+    .about-us-1{
+        padding: 50px 20px;
+    }
+    
+    .about-us-1 p{
+        text-align: left;
+        }
+ }
+ 
+ .about-us-2{
+    padding: 50px 80px;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    height: auto;
+ }
+ .why{
+    height: auto;
+    width: 400px;
+    padding: 40px 0;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin: 20px 10px;
+
+    
+ }
+ .why h4{
+    font-size: 1.5rem;
+    color: var(--gray);
+ }
+ .why p{
+    color: var(--gray);
+    padding-top: 20px;
+    font-size: 1.2rem;
+    text-align: justify;
+ }
+
+ @media (min-width: 375px) and ( max-width: 430px){
+    .about-us-2{
+        flex-direction: column;
+        width: 100%;
+        padding: 50px 20px;
+    }
+    .why{
+        width: 90%;
+    }
+ }
+
+ .about-us-3{
+    
+    padding: 50px 100px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    
+}
+.about-us-3 p{
+    
+    line-height: 40px;
+    color:var(--gray);
+    text-align: justify;
+    font-size: 1.2rem;
+    padding-bottom: 20px;
+    
+ }
+
+ @media (min-width: 375px) and ( max-width: 430px){
+    .about-us-3{
+        padding: 50px 20px;
+    }
+    
+    .about-us-3 p{
+        text-align: left;
+        }
+ }
+ 
+ .about-footer .footer-content{
+    height:400px;
+ }
+ @media (min-width: 375px) and ( max-width: 430px){
+    .about-footer .footer-content{
+        height: auto;
+    }
+    .footer-links{
+        flex-direction: column;
+        
+    }
+    .link-bg p{
+        padding-top: 0;
+        padding-bottom: 30px;
+    }
+}
