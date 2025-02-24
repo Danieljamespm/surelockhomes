@@ -1133,32 +1133,41 @@ footer h5{
  }
  
  .about-us-2{
-    padding: 50px 80px;
+    
     display: flex;
     justify-content: space-around;
     align-content: center;
     height: auto;
+    
  }
  .why{
-    height: auto;
-    width: 400px;
-    padding: 40px 0;
+    width: 350px;
     display: flex;
     flex-direction: column;
     align-content: center;
-    margin: 20px 10px;
+    margin: 10px 0px;
+   
+}
 
+
+
+
+
+
+ .why h4{
+    padding: 10px 0px;
+     font-size: 1.5rem;
+    color: var(--gray);
+    position: relative;
     
  }
- .why h4{
-    font-size: 1.5rem;
-    color: var(--gray);
- }
  .why p{
+    
     color: var(--gray);
-    padding-top: 20px;
     font-size: 1.2rem;
     text-align: justify;
+    position: relative;
+    
  }
 
  @media (min-width: 375px) and ( max-width: 430px){
@@ -1168,7 +1177,9 @@ footer h5{
         padding: 50px 20px;
     }
     .why{
-        width: 90%;
+        width: 100%;
+        justify-content: center;
+        
     }
  }
 
