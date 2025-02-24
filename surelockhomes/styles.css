@@ -1170,7 +1170,7 @@ footer h5{
     
  }
 
- @media (min-width: 375px) and ( max-width: 430px){
+ @media (min-width: 375px) and ( max-width: 1024px){
     .about-us-2{
         flex-direction: column;
         width: 100%;
