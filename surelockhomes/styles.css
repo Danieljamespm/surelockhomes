@@ -1228,3 +1228,49 @@ footer h5{
         padding-bottom: 30px;
     }
 }
+
+/* SERVICES.HTML */
+
+
+
+#services-hero-section .container.image{
+    height: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+#services-hero-section .content.image{
+    height: 100%;
+    justify-content: center;
+    align-items: start;
+}
+
+#services-hero-section img{
+    position: relative;
+    width: 100%;
+    max-height: 100%;
+    max-width: none;
+    object-fit: cover;
+    filter: brightness(40%);
+    
+}
+
+#services-hero-section .container.overlay{
+    position: absolute;
+    top: 250px;
+    left: auto;
+    width: 600px;
+    height: auto;
+    justify-content: flex-start;
+    align-items: flex-start;
+    z-index: 2;
+    background-color: blue;
+    
+}
+
+#services-hero-section .content.overlay{
+    position: relative;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
