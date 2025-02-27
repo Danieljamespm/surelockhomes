@@ -1229,9 +1229,9 @@ footer h5{
     }
 }
 
-/* SERVICES.HTML */
+/* CONTACTUS.HTML */
 
-#services-hero-section{
+#contact-hero-section{
     width: 100%;
     height: 400px;
     display: flex;
@@ -1241,7 +1241,7 @@ footer h5{
     margin-bottom: 40px;
 }
 
-#services-hero-section::before{
+#contact-hero-section::before{
     content: "";
     background-image: url(images/services-header.webp);
     background-size: cover;
@@ -1255,11 +1255,33 @@ footer h5{
     
 }
 
-#services-hero-section h3{
+#contact-hero-section h3{
     color: white;
     position: relative;
     font-size: 5.0rem;
     text-align: center;
 
 }
+
+.contactus-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+ .contact-card{
+    height: 150px;
+    width: 300px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    border-radius: 10px;
+ }
 
