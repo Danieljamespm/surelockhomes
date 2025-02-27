@@ -1263,6 +1263,10 @@ footer h5{
 
 }
 
+.contact-header{
+    padding-bottom: 10px;
+}
+
 .contactus-container{
     display: flex;
     justify-content: space-around;
@@ -1284,4 +1288,12 @@ footer h5{
     color: white;
     border-radius: 10px;
  }
+
+ @media (max-width: 1240px){
+    .contactus-container{
+        flex-direction: column;
+    }
+ }
+
+
 
