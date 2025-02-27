@@ -1321,4 +1321,191 @@ footer h5{
  }
 
 
+/* SERVICES.HTML */
 
+
+
+/* #services-hero-section{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 40px;
+}
+
+#services-hero-section::before{
+    content: "";
+    background-image: url(images/lishi-car.jpg);
+    background-size: cover;
+    background-position: top;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    filter: brightness(40%);
+    
+}
+
+#services-hero-section h3{
+    color: white;
+    position: relative;
+    font-size: 5.0rem;
+    text-align: center;
+
+} */
+
+.bgimage-1, .bgimage-2, .bgimage-3, .bgimage-4{
+    position:relative;
+    opacity: 0.65;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+.bgimage-1{
+    background-image: url(images/key-cutter.jpg);
+    min-height: 700px;
+    width: 100%;
+}
+
+.bgimage-2{
+    background-image: url(images/car-programmer.jpg);
+    min-height: 700px;
+    width: 100%;
+}
+
+.bgimage-3{
+    background-image: url(images/residential-service.webp);
+    min-height: 700px;
+    width: 100%;
+
+}
+@media (min-width: 375px) and ( max-width: 430px){
+    .bgimg-3{
+        min-height: 800px;
+    }
+}
+
+.bgimage-4{
+    background-image: url(images/Commercial-door-mortise.jpg);
+    width: 100%;
+    min-height: 700px;
+    background-position: top;
+}
+
+.services-heading{
+    position: absolute;
+    left: 0;
+    top: 40%;
+    width: 100%;
+    text-align: center;
+    font-size: 5.0rem;
+    color: var(--grey);
+    height: 500px;
+    
+    
+    
+}
+.services-heading h2{
+    padding-bottom: 10px;
+}
+@media(max-width:768px){
+    .services-heading{
+        font-size: 3.5rem;
+    }
+}
+@media(max-width:375px){
+    .services-heading{
+        font-size: 3.0rem;
+    }
+}
+
+@media (max-width:475px){
+    .services-heading{
+        top: 20%;
+    }
+}
+
+.services-1{
+    padding: 50px 60px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    
+    
+}
+.services-1 h3{
+    padding: 20px 0px;
+}
+
+.services-logo{
+    height: 100px;
+    width: 100px;
+    
+}
+
+
+
+.list li{
+    padding: 20px;
+    color: black;
+    font-size: 1.2rem;
+    
+    
+}
+
+.services-list{
+    width: 300px;
+    margin: 0 auto;
+    
+}
+
+.services-links{
+    width: 100%;
+    margin: 0 auto;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    
+    align-items: center;
+    
+
+}
+.services-links li{
+    font-size: 2.0rem;
+    list-style: none;
+    width: 100%;
+    
+    border-radius: 10px;
+    margin: 0 auto;
+    
+}
+.services-links a:hover{
+    background-color: white;
+    cursor: pointer;
+    transition-duration: 500ms;
+}
+.services-links a{
+    text-decoration: none;
+    color: red;
+    background-color: black;
+    border-radius: 10px;
+    text-decoration: underline;
+    padding: 10px;
+    font-size: 1.4rem;
+    
+}
+
+@media (max-width:1000px){
+    .services-links{
+        flex-direction: column;
+        align-items: center;
+    }
+}
