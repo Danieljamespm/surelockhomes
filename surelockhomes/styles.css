@@ -1323,40 +1323,6 @@ footer h5{
 
 /* SERVICES.HTML */
 
-
-
-/* #services-hero-section{
-    width: 100%;
-    height: 400px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    margin-bottom: 40px;
-}
-
-#services-hero-section::before{
-    content: "";
-    background-image: url(images/lishi-car.jpg);
-    background-size: cover;
-    background-position: top;
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    filter: brightness(40%);
-    
-}
-
-#services-hero-section h3{
-    color: white;
-    position: relative;
-    font-size: 5.0rem;
-    text-align: center;
-
-} */
-
 .bgimage-1, .bgimage-2, .bgimage-3, .bgimage-4{
     position:relative;
     opacity: 0.65;
@@ -1507,5 +1473,105 @@ footer h5{
     .services-links{
         flex-direction: column;
         align-items: center;
+    }
+}
+
+/* TESTIMONIALS */
+
+.testimonials{
+    height: 700px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    
+    
+}
+
+.testimonial-container{
+    position: relative;
+    width: 80%;
+    max-width: 600px;
+    padding: 20px;
+    border-radius: 10px;
+    background: white;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    height: 420px;
+    overflow: hidden;
+   }
+
+.testimonial-slide{
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 100%;
+    transform: translateX(100%) translateY(-50%);
+    transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+    
+}
+.testimonial-slide.active{
+    transform: translateX(0) translateY(-50%);
+    left: 0;
+    opacity: 1;
+}
+
+.testimonial-slide img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    
+}
+
+.testimonial-slide p{
+    font-size: 1.0rem;
+    color: #555;
+}
+
+.testimonial-slide h3{
+    font-size: 1.2rem;
+    margin-top: 5px;
+    padding-bottom: 2px;
+}
+.testimonial-slide i{
+    color: gold;
+}
+
+
+.button-container button{
+   transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    border-radius: 50%;
+}
+
+.button-container{
+    margin-top: 10px;
+    height: 100px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.button-container button:hover{
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.prev{
+    left: 40%;
+}
+.next{
+    right: 40%;
+}
+
+@media (max-width: 430px){
+    .testimonials h3{
+        font-size: 2.0rem;
     }
 }
