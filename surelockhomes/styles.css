@@ -1463,10 +1463,27 @@ footer h5{
     color: red;
     background-color: black;
     border-radius: 10px;
-    text-decoration: underline;
     padding: 10px;
     font-size: 1.4rem;
     
+    
+}
+
+.top-btn{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 1.0rem;
+}
+
+.top-btn:hover{
+    background-color: white;
+    cursor: pointer;
+    transition-duration: 500ms;
+    border: 1px solid black;
+    color: black;
 }
 
 @media (max-width:1000px){
