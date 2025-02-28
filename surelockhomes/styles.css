@@ -1508,6 +1508,7 @@ footer h5{
     left: 100%;
     transform: translateX(100%) translateY(-50%);
     transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+    padding: 0px 10px;
     
 }
 .testimonial-slide.active{
