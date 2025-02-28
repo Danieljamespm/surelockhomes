@@ -1335,9 +1335,11 @@ footer h5{
 
 .bgimage-1{
     background-image: url(images/key-cutter.jpg);
-    min-height: 1000px;
+    min-height: 700px;
     width: 100%;
 }
+
+
 
 .bgimage-2{
     background-image: url(images/car-programmer.jpg);
@@ -1367,7 +1369,7 @@ footer h5{
 .services-heading{
     position: absolute;
     left: 0;
-    top: 40%;
+    top: 30%;
     width: 100%;
     text-align: center;
     font-size: 5.0rem;
