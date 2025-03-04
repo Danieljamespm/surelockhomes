@@ -1345,7 +1345,7 @@ footer h5{
 }
 
 @supports (-webkit-touch-callout: none){
-    .bgimage-1, .bgimage-2, .bgimaeg-3, .bgimage-4 {
+    .bgimage-1, .bgimage-2, .bgimage-3, .bgimage-4 {
         background-attachment: scroll !important; /* Fixes iOS zoom */
         background-size: cover; /* Prevents extreme zoom */
       }
