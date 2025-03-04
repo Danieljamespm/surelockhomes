@@ -934,6 +934,7 @@ a{
     padding: 10px 40px;
     background-color: white;
     border: 1px solid black;
+    color: black;
 }
 .contact-btn:hover{
     background-color: black;
