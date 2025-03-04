@@ -1070,6 +1070,7 @@ footer h5{
         padding-top: 0;
         padding-bottom: 30px;
     }
+   
 }
 
 /* ABOUTUS.HTML */
@@ -1088,8 +1089,11 @@ footer h5{
     .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
         background-attachment: scroll !important; /* Fixes iOS zoom */
         background-size: cover; /* Prevents extreme zoom */
+        transform: translateY(0);
+        will-change: transform;
       }
 }
+
 
 
 .bgimg-1{
@@ -1110,11 +1114,7 @@ footer h5{
     width: 100%;
 
 }
-@media (min-width: 375px) and ( max-width: 430px){
-    .bgimg-3{
-        min-height: 800px;
-    }
-}
+
 
 .bgimg-4{
     background-image: url(images/lockpicks.webp);
@@ -1346,6 +1346,14 @@ footer h5{
     background-attachment: fixed;
     
 }
+
+@supports (-webkit-touch-callout: none){
+    .bgimage-1, .bgimage-2, .bgimaeg-3, .bgimage-4 {
+        background-attachment: scroll !important; /* Fixes iOS zoom */
+        background-size: cover; /* Prevents extreme zoom */
+      }
+}
+
 
 .bgimage-1{
     background-image: url(images/key-cutter.jpg);

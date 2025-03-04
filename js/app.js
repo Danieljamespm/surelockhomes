@@ -63,4 +63,10 @@ showSlide(currentIndex)
 
 
 
-var rellax = new Rellax('.rellax');
+document.addEventListener("scroll", function () {
+    let scrolled = window.scrollY;
+    document.querySelectorAll(".bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4").forEach((bg) => {
+      let speed = -0.3; // Adjust this value for more or less parallax effect
+      bg.style.transform = `translateY(${scrolled * speed}px)`;
+    });
+  });
