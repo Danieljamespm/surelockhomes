@@ -53,11 +53,11 @@ body{
     
 }
 
-img {
+/* img {
     image-rendering: -webkit-optimize-contrast;
     image-rendering: crisp-edges;
     -webkit-transform: translate3d(0,0,0);
-  }
+  } */
 
 /* @media (min-width: 1920px){
     body{
@@ -1084,12 +1084,12 @@ footer h5{
     
 }
 
-@media screen and (max-width: 430px) {
+/* @media screen and (max-width: 430px) {
     .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4{
       background-size: contain !important;
       background-position: center !important;
     }
-  }
+  } */
 
 .bgimg-1{
     background-image: url(images/car-key.jpg);
