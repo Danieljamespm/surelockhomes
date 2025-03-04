@@ -1084,12 +1084,13 @@ footer h5{
     
 }
 
-/* @media screen and (max-width: 430px) {
-    .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4{
-      background-size: contain !important;
-      background-position: center !important;
-    }
-  } */
+@supports (-webkit-touch-callout: none){
+    .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
+        background-attachment: scroll !important; /* Fixes iOS zoom */
+        background-size: cover; /* Prevents extreme zoom */
+      }
+}
+
 
 .bgimg-1{
     background-image: url(images/car-key.jpg);
