@@ -53,6 +53,12 @@ body{
     
 }
 
+/* img {
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: crisp-edges;
+    -webkit-transform: translate3d(0,0,0);
+  } */
+
 /* @media (min-width: 1920px){
     body{
         max-width: 100vw;
@@ -1078,6 +1084,13 @@ footer h5{
     
 }
 
+/* @media screen and (max-width: 430px) {
+    .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4{
+      background-size: contain !important;
+      background-position: center !important;
+    }
+  } */
+
 .bgimg-1{
     background-image: url(images/car-key.jpg);
     min-height: 1250px;
@@ -1335,9 +1348,11 @@ footer h5{
 
 .bgimage-1{
     background-image: url(images/key-cutter.jpg);
-    min-height: 1000px;
+    min-height: 700px;
     width: 100%;
 }
+
+
 
 .bgimage-2{
     background-image: url(images/car-programmer.jpg);
@@ -1367,7 +1382,7 @@ footer h5{
 .services-heading{
     position: absolute;
     left: 0;
-    top: 40%;
+    top: 30%;
     width: 100%;
     text-align: center;
     font-size: 5.0rem;
