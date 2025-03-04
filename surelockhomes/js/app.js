@@ -60,3 +60,7 @@ function prevSlide(){
 setInterval(nextSlide, 6000)
 
 showSlide(currentIndex)
+
+
+
+var rellax = new Rellax('.rellax');
