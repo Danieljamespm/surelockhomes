@@ -1126,7 +1126,7 @@ footer h5{
     width: 100%;
     text-align: center;
     font-size: 5.0rem;
-    color: var(--grey);
+    color: white;
 }
 
 @media (min-width: 375px) and ( max-width: 430px){
