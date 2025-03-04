@@ -56,7 +56,7 @@ body{
 img {
     image-rendering: -webkit-optimize-contrast;
     image-rendering: crisp-edges;
-    /* -webkit-transform: translate3d(0,0,0); */
+    -webkit-transform: translate3d(0,0,0);
   }
 
 /* @media (min-width: 1920px){
